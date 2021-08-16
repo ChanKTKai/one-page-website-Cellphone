@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;list-style: none;box-sizing: border-box;color: white;font-family: 'Noto Sans TC', sans-serif;}
+body{background-color: black;}
+.wrap{width: 100%;margin:0 auto;text-align: center;}
+.banner {background-image: url('images/banner.jpg');
+		background-repeat: no-repeat;background-position: center;height:816px;}
+nav{background:linear-gradient(to left,rgba(52,147,99,.8),rgba(30,156,215,.8),rgba(204,224,244,.8));margin-top:-124px }
+ nav ul{display: flex;flex-direction: row;justify-content: space-around;}
+nav ul li{padding:50px;}
+
+article .box{width: 40%;margin:60px auto;}
+article .box p{text-align: left;padding-bottom:20px }
+article img{max-width: 600px}
